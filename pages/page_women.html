@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог женских кроссовок</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/catalog.css">
+    
+</head>
+<body data-gender="women">
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html"><img src="/images/Main_Page/Лого.svg" alt="Nike" class="logo-img"></a>
+            <h1 class="name">NIKE</h1>
+        </div>
+        
+        <nav class="nav">
+            <a href="/pages/About.html"><h2>О нас</h2></a>
+            <a href="/pages/page_men.html"><h2>Мужские</h2></a>
+            <a href="/pages/page_women.html"><h2>Женские</h2></a>
+        </nav>
+        
+        <div class="Korzina">
+            <a href="/pages/shopping_cart.html" class="Korzina">
+                <img src="/images/Main_Page/Korzina.png" alt="Корзина">
+                <span class="cart-counter">0</span>
+            </a>
+            
+        </div>
+        
+        <button class="burger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+
+    <main>
+        <img class="preview" src="/images/Men/banner.png">
+        <div class = "start_of_contents">
+            Женские кроссовки
+        </div>
+        <div id = "est_text">
+            Вы можете найти идеальную мужскую спортивную обувь, соответствующую вашему стилю жизни. 
+        </div>
+
+
+        <div class="sort-container">
+            <button class="sort-btn" id="sortButton">
+                Сортировка
+                <span class="sort-icon">▼</span>
+            </button>
+            <div class="sort-dropdown" id="sortDropdown">
+                <button class="sort-option" data-sort="asc">По возрастанию ▲</button>
+                <button class="sort-option" data-sort="desc">По убыванию ▼</button>
+            </div>
+        </div>
+        
+        <div class = "line"></div>
+        
+        <div id="sneakers-container"></div>
+
+    </main>
+    
+    <footer class="footer">
+        <p>© 2025 Бренд кроссовок NIKE. Все права защищены</p>
+    </footer>
+
+
+    <script src="/js/script_menu.js"></script>
+    <script src="/js/script_men.js"></script>
+</body>
+
+</html>

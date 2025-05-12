@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина </title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/shop_cart.css">
+</head>
+<body>
+
+        <header class="header">
+            <div class="logo">
+                <a href="../index.html"><img src="/images/Main_Page/Лого.svg" alt="Nike" class="logo-img"></a>
+                <h1 class="name">NIKE</h1>
+            </div>
+            
+            <nav class="nav">
+                <a href="/pages/About.html"><h2>О нас</h2></a>
+                <a href="/pages/page_men.html"><h2>Мужские</h2></a>
+                <a href="/pages/page_women.html"><h2>Женские</h2></a>
+            </nav>
+            
+            <div class="Korzina">
+                <a href="/pages/shopping_cart.html" class="Korzina">
+                    <img src="/images/Main_Page/Korzina.png" alt="Корзина">
+                </a>
+            </div>
+            
+            <button class="burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+    
+        <main>
+            
+            <div class="cart-container">
+                <h2>Корзина</h2>
+                <div class="cart-items" id="cartItems"></div>
+            </div>
+        
+            <div class="cart-summary">
+                <div class="total">
+                    <span>Итого:</span>
+                    <span id="totalPrice">0</span> BYN
+                </div>
+                <button class="checkout-btn">Оформить заказ</button>
+            </div>
+
+            <div class="continue-shopping-outer">
+                <a href="#" class="continue-shopping" onclick="window.history.back(); return false;">Продолжить покупки</a>
+            </div>
+
+        </main>
+    
+        <footer class="footer">
+            <div class="container">
+                <p>© 2025 Бренд кроссовок NIKE. Все права защищены</p>
+            </div>
+        </footer>
+
+    <script src="/js/cart.js"></script>
+    <script src="/js/script_menu.js"></script>
+</body>
+</html>
+

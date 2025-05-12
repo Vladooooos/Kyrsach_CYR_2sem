@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sneakers>
+    <!-- Мужские кроссовки -->
+    <sneaker id="1" gender="men">
+        <name>Nike Air Max 270</name>
+        <price>299</price>
+        <size>38,39,40,41,42,43,44</size>
+        <image>kros_men_1.png</image>
+    </sneaker>
+    <sneaker id="2" gender="men">
+        <name>Nike Zoom Vomero Roam</name>
+        <price>189</price>
+        <size>38,39,40,42,43</size>
+        <image>kros_men_2.png</image>
+    </sneaker>
+    <sneaker id="3" gender="men">
+        <name>Nike Air Force 1 Low</name>
+        <price>259</price>
+        <size>39,40,43,44</size>
+        <image>kros_men_3.png</image>
+    </sneaker>
+    <sneaker id="4" gender="men">
+        <name>Nike Air Force 1 Dance</name>
+        <price>219</price>
+        <size>38,39,40</size>
+        <image>kros_men_4.png</image>
+    </sneaker>
+    <sneaker id="5" gender="men">
+        <name>Nike Air Max Plus G</name>
+        <price>326</price>
+        <size>38,39,41,42,43,44</size>
+        <image>kros_men_5.png</image>
+    </sneaker>
+    <sneaker id="6" gender="men">
+        <name>Nike Dunk Low Retro</name>
+        <price>330</price>
+        <size>39,40,41,42,43</size>
+        <image>kros_men_6.png</image>
+    </sneaker>
+
+    <!-- Женские кроссовки -->
+    <sneaker id="7" gender="women">
+        <name>Nike Air Max Dawn</name>
+        <price>150</price>
+        <size>35,36,37,38,39</size>
+        <image>kros_women_1.png</image>
+    </sneaker>
+    <sneaker id="8" gender="women">
+        <name>Nike Revolution 6</name>
+        <price>350</price>
+        <size>36,37,38,39,40</size>
+        <image>kros_women_2.png</image>
+    </sneaker>
+    <sneaker id="9" gender="women">
+        <name>Nike Tanjun</name>
+        <price>200</price>
+        <size>35,36,37,38</size>
+        <image>kros_women_3.png</image>
+    </sneaker>
+    <sneaker id="10" gender="women">
+        <name>Nike Air Force 1 Shadow</name>
+        <price>190</price>
+        <size>36,37,38,39</size>
+        <image>kros_women_4.png</image>
+    </sneaker>
+    <sneaker id="11" gender="women">
+        <name>Nike Flex Runner 2</name>
+        <price>300</price>
+        <size>35,36,37,38,39</size>
+        <image>kros_women_5.png</image>
+    </sneaker>
+    <sneaker id="12" gender="women">
+        <name>Nike Court Vision Low</name>
+        <price>230</price>
+        <size>36,37,38,39,40</size>
+        <image>kros_women_6.png</image>
+    </sneaker>
+    
+</sneakers>
